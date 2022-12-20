@@ -12,6 +12,7 @@ const initialTransaction = {
   type: "",
   createdAt: "",
   date: "",
+  tags : []
 };
 const Transaction = () => {
   const [transaction, setTransaction] = useState(initialTransaction);
